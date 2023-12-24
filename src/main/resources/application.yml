@@ -20,6 +20,7 @@ spring:
               client-id: client
               client-secret: "{noop}secret"
               client-authentication-methods: client_secret_basic
+              #client-authentication-methods: client_secret_jwt
               authorization-grant-types: client_credentials
 
           # We have defined only one client: oidc-client
