@@ -22,6 +22,9 @@ spring:
               client-authentication-methods: client_secret_basic
               #client-authentication-methods: client_secret_jwt
               authorization-grant-types: client_credentials
+              #authorization-grant-types:
+              #  - client_credentials
+              #  - authorization_code redirectUris gerektiriyor
 
           # We have defined only one client: oidc-client
           # This client information was also mentioned
